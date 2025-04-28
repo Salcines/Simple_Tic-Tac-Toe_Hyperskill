@@ -1,24 +1,25 @@
 package tictactoe;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        final char FIRST_PLAYER = 'X';
-        final char SECOND_PLAYER = 'O';
-        final char EMPTY_CELL = ' ';
 
-        char currentPlayer = FIRST_PLAYER;
+        final int ROWS = 3;
 
-        for (int i = 0; i < 3; i++) {
-            for (int j = 0; j < 3; j++) {
-                System.out.print(currentPlayer);
-                System.out.print(EMPTY_CELL);
-                currentPlayer = (currentPlayer == FIRST_PLAYER) ? SECOND_PLAYER : FIRST_PLAYER;
-            }
-            System.out.println();
+        Scanner scanner = new Scanner(System.in);
+        String gamble = scanner.nextLine();
+        String output = "";
+        int row = gamble.length() / ROWS;
+
+        System.out.println("---------");
+
+        for (int i = 0; i < gamble.length(); i += row) {
+            output = String.format("|%s|", gamble.substring(i, i + row));
+
+            System.out.println(String.join(" ", output.split("")));
         }
-
-
-
-
+        System.out.println("---------");
     }
+
 }
