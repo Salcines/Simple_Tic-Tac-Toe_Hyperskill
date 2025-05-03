@@ -4,6 +4,9 @@ files:
     visible: true
     learner_created: false
 feedback_link: https://hyperskill.org/learn/step/2129#comment
-status: Unchecked
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Sat, 03 May 2025 20:23:07 UTC"
 record: -1
 submission_language: java17
