@@ -3,7 +3,7 @@ hyperskill_project:
   ide_files: https://hyperskill.org/api/projects/48/additional-files/additional_files.json
   is_template_based: false
   use_ide: true
-update_date: "Tue, 06 May 2025 19:08:33 UTC"
+update_date: "Thu, 08 May 2025 00:19:49 UTC"
 stages:
   - id: 255
     step: 5397
