@@ -9,7 +9,8 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
         String gamble = scanner.nextLine();
-        scanner.close();
+
+        gamble = gamble.replace("_", " ");
 
         char[][] board = new char[ROWS][ROWS];
 
@@ -22,7 +23,46 @@ public class Main {
 
         printBoard(ROWS, board);
 
-        analyzeBoard(board);
+        makeMove(board);
+
+        scanner.close();
+
+        //analyzeBoard(board);
+    }
+
+    private static void makeMove(char[][] board) {
+        int row = -1;
+        int column = -1;
+
+        boolean isInputInvalid = false;
+
+        do {
+            Scanner scanner = new Scanner(System.in);
+            if (scanner.hasNextInt()) {
+                row = scanner.nextInt() - 1;
+                column = scanner.nextInt() - 1;
+            } else {
+                isInputInvalid = true;
+                System.out.println("You should enter numbers!");
+                continue;
+            }
+
+            if ((row < 0 || row > board.length - 1) || (column < 0 || column > board.length - 1)) {
+                isInputInvalid = true;
+                System.out.println("You should enter numbers from 1 to 3!");
+                continue;
+            }
+
+            if (board[row][column] == ' ') {
+                    board[row][column] = 'X';
+                    isInputInvalid = false;
+            } else {
+                isInputInvalid = true;
+                System.out.println("This cell is occupied! Choose another one...");
+            }
+        } while (isInputInvalid);
+
+        printBoard(board.length, board);
     }
 
     private static void printBoard(int ROWS, char[][] board) {
