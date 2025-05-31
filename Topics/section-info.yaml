@@ -7,3 +7,4 @@ content:
   - Static members
   - Multidimensional array
   - Floating-point types and operations
+  - NullPointerException
