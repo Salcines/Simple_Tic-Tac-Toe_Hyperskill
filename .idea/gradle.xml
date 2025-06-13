@@ -34,6 +34,13 @@
             <option value="$PROJECT_DIR$/Topics/Floating-point types and operations/Liquid pressure" />
             <option value="$PROJECT_DIR$/Topics/Floating-point types and operations/Theory" />
             <option value="$PROJECT_DIR$/Topics/Floating-point types and operations/What is the value" />
+            <option value="$PROJECT_DIR$/Topics/For loop/Arithmetic average" />
+            <option value="$PROJECT_DIR$/Topics/For loop/Grades" />
+            <option value="$PROJECT_DIR$/Topics/For loop/Numbers divisible by six" />
+            <option value="$PROJECT_DIR$/Topics/For loop/Statements" />
+            <option value="$PROJECT_DIR$/Topics/For loop/The count of numbers divisible by N" />
+            <option value="$PROJECT_DIR$/Topics/For loop/The sum of integers from a to b" />
+            <option value="$PROJECT_DIR$/Topics/For loop/Theory" />
             <option value="$PROJECT_DIR$/Topics/Initializing new instances. Constructor/A required part of a class" />
             <option value="$PROJECT_DIR$/Topics/Initializing new instances. Constructor/Account and its owner" />
             <option value="$PROJECT_DIR$/Topics/Initializing new instances. Constructor/Characterize the constructors" />
@@ -67,8 +74,13 @@
             <option value="$PROJECT_DIR$/Topics/Multidimensional array/Practical applications" />
             <option value="$PROJECT_DIR$/Topics/Multidimensional array/Reverse elements" />
             <option value="$PROJECT_DIR$/Topics/Multidimensional array/Theory" />
+            <option value="$PROJECT_DIR$/Topics/NullPointerException/Code that throws an exception" />
+            <option value="$PROJECT_DIR$/Topics/NullPointerException/Lines that may throw NPE" />
             <option value="$PROJECT_DIR$/Topics/NullPointerException/Return empty string when argument is null" />
             <option value="$PROJECT_DIR$/Topics/NullPointerException/Theory" />
+            <option value="$PROJECT_DIR$/Topics/NullPointerException/Unknown input" />
+            <option value="$PROJECT_DIR$/Topics/NullPointerException/Where NPE may occur" />
+            <option value="$PROJECT_DIR$/Topics/NullPointerException/Where NPE might occur" />
             <option value="$PROJECT_DIR$/Topics/Objects and their properties/Accessing fields" />
             <option value="$PROJECT_DIR$/Topics/Objects and their properties/Army" />
             <option value="$PROJECT_DIR$/Topics/Objects and their properties/Creating and printing a 'Vehicle' object in Java" />
