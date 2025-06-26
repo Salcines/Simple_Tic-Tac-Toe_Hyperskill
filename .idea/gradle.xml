@@ -150,9 +150,15 @@
             <option value="$PROJECT_DIR$/Topics/Overloading/Theory" />
             <option value="$PROJECT_DIR$/Topics/Overloading/Unsuccessful overloading" />
             <option value="$PROJECT_DIR$/Topics/Static members/About static members" />
+            <option value="$PROJECT_DIR$/Topics/Static members/Accessing static members" />
             <option value="$PROJECT_DIR$/Topics/Static members/Creating a static message in a class" />
             <option value="$PROJECT_DIR$/Topics/Static members/Detail manufacturing" />
+            <option value="$PROJECT_DIR$/Topics/Static members/Mystery of the methods" />
+            <option value="$PROJECT_DIR$/Topics/Static members/Project constants and methods" />
+            <option value="$PROJECT_DIR$/Topics/Static members/Searching bugs" />
             <option value="$PROJECT_DIR$/Topics/Static members/Statements" />
+            <option value="$PROJECT_DIR$/Topics/Static members/Static and instance members" />
+            <option value="$PROJECT_DIR$/Topics/Static members/Static fields" />
             <option value="$PROJECT_DIR$/Topics/Static members/Theory" />
             <option value="$PROJECT_DIR$/Topics/Static members/Time constants" />
             <option value="$PROJECT_DIR$/Topics/String/Calling basic methods" />
