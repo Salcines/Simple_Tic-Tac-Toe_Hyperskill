@@ -113,7 +113,10 @@
             <option value="$PROJECT_DIR$/Topics/Multidimensional array/Fill the matrix by numbers" />
             <option value="$PROJECT_DIR$/Topics/Multidimensional array/Indexing rules" />
             <option value="$PROJECT_DIR$/Topics/Multidimensional array/Practical applications" />
+            <option value="$PROJECT_DIR$/Topics/Multidimensional array/Printing lengths of nested arrays" />
             <option value="$PROJECT_DIR$/Topics/Multidimensional array/Reverse elements" />
+            <option value="$PROJECT_DIR$/Topics/Multidimensional array/Sorting a square matrix display on the command-line" />
+            <option value="$PROJECT_DIR$/Topics/Multidimensional array/Swap the columns" />
             <option value="$PROJECT_DIR$/Topics/Multidimensional array/Theory" />
             <option value="$PROJECT_DIR$/Topics/Multiple conditions  switch/A simple calculator" />
             <option value="$PROJECT_DIR$/Topics/Multiple conditions  switch/Converting numerical values into words" />
@@ -123,11 +126,13 @@
             <option value="$PROJECT_DIR$/Topics/Multiple conditions  switch/Harry Potter" />
             <option value="$PROJECT_DIR$/Topics/Multiple conditions  switch/Removing breaks" />
             <option value="$PROJECT_DIR$/Topics/Multiple conditions  switch/Theory" />
+            <option value="$PROJECT_DIR$/Topics/NullPointerException/Avoid NPE with strings" />
             <option value="$PROJECT_DIR$/Topics/NullPointerException/Code that throws an exception" />
             <option value="$PROJECT_DIR$/Topics/NullPointerException/Lines that may throw NPE" />
             <option value="$PROJECT_DIR$/Topics/NullPointerException/Return empty string when argument is null" />
             <option value="$PROJECT_DIR$/Topics/NullPointerException/Theory" />
             <option value="$PROJECT_DIR$/Topics/NullPointerException/Unknown input" />
+            <option value="$PROJECT_DIR$/Topics/NullPointerException/When NPE cannot occur" />
             <option value="$PROJECT_DIR$/Topics/NullPointerException/Where NPE may occur" />
             <option value="$PROJECT_DIR$/Topics/NullPointerException/Where NPE might occur" />
             <option value="$PROJECT_DIR$/Topics/Objects and their properties/Accessing fields" />
