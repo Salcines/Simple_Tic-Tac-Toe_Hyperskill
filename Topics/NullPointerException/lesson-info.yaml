@@ -6,3 +6,5 @@ content:
   - Lines that may throw NPE
   - Where NPE might occur
   - Unknown input
+  - Avoid NPE with strings
+  - When NPE cannot occur
