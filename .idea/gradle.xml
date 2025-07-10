@@ -12,8 +12,6 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/Simple Tic-Tac-Toe (Java)/task" />
             <option value="$PROJECT_DIR$/Simple Tic-Tac-Toe (Java)/task/build/classes/java" />
-            <option value="$PROJECT_DIR$/Simple Tic-Tac-Toe (Java)/task/build/generated/sources/annotationProcessor/java" />
-            <option value="$PROJECT_DIR$/Simple Tic-Tac-Toe (Java)/task/build/generated/sources/headers/java" />
             <option value="$PROJECT_DIR$/Simple Tic-Tac-Toe (Java)/task/build/reports/tests" />
             <option value="$PROJECT_DIR$/Simple Tic-Tac-Toe (Java)/task/build/test-results" />
             <option value="$PROJECT_DIR$/Simple Tic-Tac-Toe (Java)/task/build/tmp" />
@@ -146,6 +144,7 @@
             <option value="$PROJECT_DIR$/Topics/Multiple conditions  switch/Creating a digit to word conversion program" />
             <option value="$PROJECT_DIR$/Topics/Multiple conditions  switch/Creating a weekday converter for calendar app" />
             <option value="$PROJECT_DIR$/Topics/Multiple conditions  switch/Direction" />
+            <option value="$PROJECT_DIR$/Topics/Multiple conditions  switch/Floor-space of the room" />
             <option value="$PROJECT_DIR$/Topics/Multiple conditions  switch/Harry Potter" />
             <option value="$PROJECT_DIR$/Topics/Multiple conditions  switch/Removing breaks" />
             <option value="$PROJECT_DIR$/Topics/Multiple conditions  switch/Theory" />
