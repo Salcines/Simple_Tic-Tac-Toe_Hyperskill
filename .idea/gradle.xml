@@ -192,6 +192,7 @@
             <option value="$PROJECT_DIR$/Topics/Static members/Time constants" />
             <option value="$PROJECT_DIR$/Topics/String/Calling basic methods" />
             <option value="$PROJECT_DIR$/Topics/String/Check burgs" />
+            <option value="$PROJECT_DIR$/Topics/String/Check prefix ignoring the case" />
             <option value="$PROJECT_DIR$/Topics/String/Comparing strings" />
             <option value="$PROJECT_DIR$/Topics/String/Comparing strings ignoring whitespaces" />
             <option value="$PROJECT_DIR$/Topics/String/Extracting a character" />
