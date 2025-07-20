@@ -158,6 +158,7 @@
             <option value="$PROJECT_DIR$/Topics/NullPointerException/Avoid NPE with strings" />
             <option value="$PROJECT_DIR$/Topics/NullPointerException/Code that throws an exception" />
             <option value="$PROJECT_DIR$/Topics/NullPointerException/Lines that may throw NPE" />
+            <option value="$PROJECT_DIR$/Topics/NullPointerException/Print string multiple times based on input" />
             <option value="$PROJECT_DIR$/Topics/NullPointerException/Return empty string when argument is null" />
             <option value="$PROJECT_DIR$/Topics/NullPointerException/Theory" />
             <option value="$PROJECT_DIR$/Topics/NullPointerException/Unknown input" />

@@ -8,3 +8,4 @@ content:
   - Unknown input
   - Avoid NPE with strings
   - When NPE cannot occur
+  - Print string multiple times based on input
