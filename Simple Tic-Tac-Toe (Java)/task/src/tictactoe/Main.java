@@ -6,31 +6,40 @@ public class Main {
     public static void main(String[] args) {
 
         final int ROWS = 3;
+        final char FIRSTPLAYER = 'X';
+        final char SECONDPLAYER = 'O';
 
         Scanner scanner = new Scanner(System.in);
-        String gamble = scanner.nextLine();
 
-        gamble = gamble.replace("_", " ");
+        char player = FIRSTPLAYER;
+//        String gamble = scanner.nextLine();
+//
+//        gamble = gamble.replace("_", " ");
 
         char[][] board = new char[ROWS][ROWS];
 
-        // Fill the board with characters obtains by console
+        // Initialize board
         for (int i = 0; i < ROWS; i++) {
             for (int j = 0; j < ROWS; j++) {
-                board[i][j] = gamble.charAt(i * ROWS + j);
+                board[i][j] = ' ';
+                // board[i][j] = gamble.charAt(i * ROWS + j);
             }
         }
 
+        boolean gameOver = false;
         printBoard(ROWS, board);
 
-        makeMove(board);
+        do {
+            makeMove(board, player);
+            gameOver = analyzeBoard(board);
 
-        scanner.close();
+            player =  player == FIRSTPLAYER ? SECONDPLAYER : FIRSTPLAYER;
+        } while (!gameOver);
 
-        //analyzeBoard(board);
+         scanner.close();
     }
 
-    private static void makeMove(char[][] board) {
+    private static void makeMove(char[][] board, char player) {
         int row = -1;
         int column = -1;
 
@@ -54,14 +63,14 @@ public class Main {
             }
 
             if (board[row][column] == ' ') {
-                    board[row][column] = 'X';
+                    board[row][column] = player;
                     isInputInvalid = false;
             } else {
                 isInputInvalid = true;
                 System.out.println("This cell is occupied! Choose another one...");
             }
         } while (isInputInvalid);
-
+        
         printBoard(board.length, board);
     }
 
@@ -79,11 +88,10 @@ public class Main {
         System.out.println("---------");
     }
 
-    private static void analyzeBoard(char[][] board) {
+    private static boolean analyzeBoard(char[][] board) {
 
         GameAnalyzer analyzer = new GameAnalyzer(board);
-        String result = analyzer.analyze();
-        System.out.println(result);
+        return analyzer.analyze();
     }
 }
 
@@ -94,34 +102,36 @@ public class Main {
             this.board = board;
         }
 
-        public String analyze() {
-            boolean emptyCells = hasEmptyCells();
+        public Boolean analyze() {
             boolean isXWinner = checkWinner('X');
             boolean isOWinner = checkWinner('O');
-
-            if (Math.abs(countOccurrences('X') - countOccurrences('O')) > 1 || (isXWinner && isOWinner)) {
-                return "Impossible";
-            }
+            boolean isDraw = isDraw();
 
             if (isXWinner){
-                return "X wins";
+                System.out.println("X wins");
+                return true;
             }
             if (isOWinner){
-                return "O wins";
+                System.out.println("O wins");
+                return true;
             }
-            return emptyCells ? "Game not finished" : "Draw";
+            if (isDraw){
+                System.out.println("Draw");
+                return true;
+            }
+            return false;
         }
 
-        private boolean hasEmptyCells() {
+        private boolean isDraw() {
             for (char[] row : board) {
                 for (char cell : row) {
-                    char EMPTY_CELL = '_';
+                    char EMPTY_CELL = ' ';
                     if (cell == EMPTY_CELL) {
-                        return true;
+                        return false;
                     }
                 }
             }
-            return false;
+            return true;
         }
 
         private boolean checkWinner(char player) {
@@ -149,17 +159,5 @@ public class Main {
         private boolean checkDiagonals(char player) {
             return (board[0][0] == player && board[1][1] == player && board[2][2] == player) ||
                     (board[0][2] == player && board[1][1] == player && board[2][0] == player);
-        }
-
-        private int countOccurrences(char player) {
-            int count = 0;
-            for (char[] row : board) {
-                for (char cell : row) {
-                    if (cell == player) {
-                        count++;
-                    }
-                }
-            }
-            return count;
         }
     }
